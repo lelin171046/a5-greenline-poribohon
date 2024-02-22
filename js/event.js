@@ -14,7 +14,7 @@ function makeGreen(id){
         }
 
 
-      
+      document.getElementById('next').disabled = false;
         // seat info handler//
 
         const li = document.createElement('li');
